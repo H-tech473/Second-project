@@ -1,0 +1,381 @@
+
+.wrapper_back .main1 .mainslides .mainslide4 h2{
+    font-family: 'Exo', sans-serif;
+    position: absolute;
+    transform: translate(40px, 50px);
+    border-radius: 5px;
+    border-bottom: chartreuse 10px solid;
+}
+.wrapper_back .main1 .mainslides .mainslide4 h2:nth-child(1){
+    font-size: 100px;
+    color: blue;
+    -webkit-text-stroke: 6px yellow;
+}
+.wrapper_back .main1 .mainslides .mainslide4 h2:nth-child(2){
+    font-size: 100px;
+    clip-path: polygon(0 55%, 18% 0%, 37% 93%, 59% 1%, 50% 75%, 72% 14%, 93% 93%, 100% 0%, 0% 0%);
+    color: lightpink;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .Instagram .hoveinsta{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color:crimson;
+    border-radius: 15px;
+    z-index: 19;
+    opacity: 0;
+    cursor: pointer;
+    left: 20px;
+    border: 10px pink solid;
+    top: 230px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .Instagram .hoveinsta:hover~ .iconin{
+    transform: translateY(-15px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .Instagram .hoveinsta:hover~ .intext{
+    transform: translateY(25px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .Instagram .iconin i{
+    position:absolute;
+    top: 15px;
+    left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 4em;
+    background-image: linear-gradient(to top right, rgb(254,218,117),rgb(250,126,30),rgb(214,41,118), rgb(150,47,191),rgb(79,91,213));
+    color: white;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .Instagram .iconin{
+    position: absolute;
+    height: 100px;
+    transition: 1s;
+    width: 300px;
+    z-index: 7;
+    background-image: linear-gradient(110.79050755798562deg, rgba(231, 244, 245,1) 5.911420204978038%,rgba(78, 240, 250,1) 95.95534407027817%);
+    border-radius: 15px;
+    left: 20px;
+    border: 10px rgb(14, 54, 94) solid;
+    top: 230px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .Instagram .iconin span{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(8, 32, 32);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .Instagram .intext{
+    position: absolute;
+    height: 110px;
+    z-index: 3;
+    width: 310px;
+    z-index: 5;
+    transition: 1s;
+    background-color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    left: 20px;
+    border: 5px black solid;
+    top: 230px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .Instagram .intext span{
+    bottom: 10px;
+    position:absolute;
+    left: 35px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .facebook .hoveface{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color:crimson;
+    border-radius: 15px;
+    z-index: 19;
+    cursor: pointer;
+    left: 370px;
+    opacity: 0;
+    border: 10px pink solid;
+    top: 230px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .facebook .hoveface:hover~ .iconfa{
+    transform: translateY(-15px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .facebook .hoveface:hover~ .fatext{
+    transform: translateY(25px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .facebook .iconfa i{
+    position:absolute;
+    top: 15px;
+    left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 4em;
+    color: blue;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .facebook .iconfa{
+    position: absolute;
+    height: 100px;
+    transition: 1s;
+    width: 300px;
+    z-index: 7;
+    background-image: linear-gradient(110.79050755798562deg, rgba(248, 198, 215,1) 5.911420204978038%,rgba(175, 233, 249,1) 95.95534407027817%);
+    border-radius: 15px;
+    left: 370px;
+    border: 10px rgb(14, 54, 94) solid;
+    top: 230px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .facebook .iconfa span{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(8, 32, 32);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .facebook .fatext{
+    position: absolute;
+    height: 110px;
+    z-index: 3;
+    width: 310px;
+    z-index: 5;
+    transition: 1s;
+    background-color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    left: 370px;
+    border: 5px black solid;
+    top: 230px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .facebook .fatext span{
+    bottom: 10px;
+    position:absolute;
+    left: 35px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .linkedin .hovelink{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color:crimson;
+    border-radius: 15px;
+    z-index: 19;
+    cursor: pointer;
+    left: 720px;
+    opacity: 0;
+    border: 10px pink solid;
+    top: 230px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .linkedin .hovelink:hover~ .iconli{
+    transform: translateY(-15px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .linkedin .hovelink:hover~ .litext{
+    transform: translateY(25px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .linkedin .iconli i{
+    position:absolute;
+    top: 15px;
+    left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 4em;
+    color: blue;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .linkedin .iconli{
+    position: absolute;
+    height: 100px;
+    transition: 1s;
+    width: 300px;
+    z-index: 7;
+    background-image: linear-gradient(110.79050755798562deg, rgba(167, 204, 225,1) 5.911420204978038%,rgba(236, 246, 237,1) 95.95534407027817%);
+    border-radius: 15px;
+    left: 720px;
+    border: 10px rgb(14, 54, 94) solid;
+    top: 230px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .linkedin .iconli span{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(8, 32, 32);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .linkedin .litext{
+    position: absolute;
+    height: 110px;
+    z-index: 3;
+    width: 310px;
+    z-index: 5;
+    transition: 1s;
+    background-color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    left: 720px;
+    border: 5px black solid;
+    top: 230px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .linkedin .litext span{
+    bottom: 10px;
+    position:absolute;
+    left: 35px;
+}
+
+.wrapper_back .main1 .mainslides .mainslide4 .gmail .hovegmai{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color:crimson;
+    border-radius: 15px;
+    z-index: 19;
+    cursor: pointer;
+    left: 20px;
+    opacity: 0;
+    border: 10px pink solid;
+    top: 430px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .gmail .hovegmai:hover~ .icongm{
+    transform: translateY(-15px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .gmail .hovegmai:hover~ .gmtext{
+    transform: translateY(25px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .gmail .icongm i{
+    position:absolute;
+    top: 15px;
+    left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 4em;
+    color: blue;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .gmail .icongm{
+    position: absolute;
+    height: 100px;
+    transition: 1s;
+    width: 300px;
+    z-index: 7;
+    background-image: linear-gradient(110.79050755798562deg, rgba(224, 247, 135,1) 5.911420204978038%,rgba(78, 227, 250,1) 95.95534407027817%);
+    border-radius: 15px;
+    left: 20px;
+    border: 10px rgb(14, 54, 94) solid;
+    top: 430px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .gmail .icongm span{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(8, 32, 32);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .gmail .gmtext{
+    position: absolute;
+    height: 110px;
+    z-index: 3;
+    width: 310px;
+    z-index: 5;
+    transition: 1s;
+    background-color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    left: 20px;
+    border: 5px black solid;
+    top: 430px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .gmail .gmtext span{
+    bottom: 10px;
+    position:absolute;
+    left: 35px;
+}
+
+.wrapper_back .main1 .mainslides .mainslide4 .contact .hovecont{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color:crimson;
+    border-radius: 15px;
+    z-index: 19;
+    cursor: pointer;
+    left: 370px;
+    opacity: 0;
+    border: 10px pink solid;
+    top: 430px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .contact .hovecont:hover~ .iconco{
+    transform: translateY(-15px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .contact .hovecont:hover~ .cotext{
+    transform: translateY(25px);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .contact .iconco i{
+    position:absolute;
+    top: 15px;
+    left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 4em;
+    color: blue;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .contact .iconco{
+    position: absolute;
+    height: 100px;
+    transition: 1s;
+    width: 300px;
+    z-index: 7;
+    background-image: linear-gradient(110.79050755798562deg, rgba(247, 238, 147,1) 5.911420204978038%,rgba(234, 220, 34,1) 95.95534407027817%);
+    border-radius: 15px;
+    left: 370px;
+    border: 10px rgb(14, 54, 94) solid;
+    top: 430px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .contact .iconco span{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(8, 32, 32);
+}
+.wrapper_back .main1 .mainslides .mainslide4 .contact .cotext{
+    position: absolute;
+    height: 110px;
+    z-index: 3;
+    width: 310px;
+    z-index: 5;
+    transition: 1s;
+    background-color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    left: 370px;
+    border: 5px black solid;
+    top: 430px;
+}
+.wrapper_back .main1 .mainslides .mainslide4 .contact .cotext span{
+    bottom: 10px;
+    position:absolute;
+    left: 35px;
+}

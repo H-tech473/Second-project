@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@keyframes mid{
+    0%,49.9%,100%{
+        background-color: rgb(59, 134, 134);
+    }
+    50%,99.9%{
+        background-color: goldenrod;
+    }
+}
+@keyframes wel{
+    0%,49.9%,100%{
+        color: black;
+    }
+    50%,99.9%{
+        color: rgb(84, 105, 40);
+    }
+}
+@keyframes h21{
+    0%,49.9%,100%{
+        color: rgb(25, 63, 21);
+        left: 195px;
+    }
+    50%,99.9%{
+        color: rgb(83, 61, 119);
+        left: 205px;
+    }
+}
+@keyframes h22{
+    0%,49.9%,100%{
+        color: darkorange;
+    }
+    50%,99.9%{
+        color: lightseagreen;
+    }
+}
+@keyframes pro{
+    0%,100%{
+        left: -100%;
+    }
+    10%,90%{
+        left: 10px;
+    }
+}
+
+
+
+.wrapper_back .main1 .mainslides .mainslide1 .text .first{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    animation: mid 2s infinite;
+    align-items: center;
+    text-align: center;
+    position:absolute;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .first h1{
+    position: absolute;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    top: 220px;
+    z-index: 1;
+    left: 200px;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .first h1:nth-child(1){
+    top: 225px;
+    animation:normal h21 2s infinite ;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .first h1:nth-child(2){
+    animation: h22 2s infinite;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .first h2{
+    position: absolute;
+    animation: wel 2s infinite;
+    font-size: 260px;
+    opacity: .7;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    top: 100px;
+    left: 40px;
+    filter: blur(2px);
+}
+
+.wrapper_back .main1 .mainslides .mainslide1 .text .second{
+    height: 100%;
+    width: 100%;
+    animation: sect1 40s ease-in-out infinite;
+    z-index: 25;
+    bottom: 100%;
+    align-items: center;
+    text-align: center;
+    position:absolute;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .second h1{
+    position:absolute;
+    height: 60px;
+    width: 600px;
+    padding-left: 0px;
+    border-left: cyan 10px solid;
+    padding-top: 20px;
+    left: 300px;
+    transform: rotateZ(-29.5deg);
+    top: 200px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .second h1 span{
+    position:absolute;
+    font-size: 70px;
+    color: blue;
+    -webkit-text-stroke: 3px gray;
+    animation: 8s ease pro infinite;
+    top: -10px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .second h2{
+    position:absolute;
+    height: 50px;
+    width: 600px;
+    border-left: darkblue 10px solid;
+    padding-top: 20px;
+    left: 320px;
+    top: 100px;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .second h2 span{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    color: darkblue;
+    left: 10px;
+    top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .second h3{
+    position:absolute;
+    height: 50px;
+    width: 600px;
+    border-right: lightgreen 10px solid;
+    padding-top: 20px;
+    right: 320px;
+    bottom: 70px;
+    text-align: right;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.wrapper_back .main1 .mainslides .mainslide1 .text .second h3 span{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    color: lightgreen;
+    right: 10px;
+    top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainslide1 .wrapper .sect2 .boox1 h1{
+    position:absolute;
+    left: 270px;
+    top: 120px;
+    border-left: 10px lightgreen solid;
+    font-family: 'Poppins', sans-serif;
+    color: lightgreen;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mainslide1 .wrapper .sect2 .boox2 h2{
+    position:absolute;
+    left: 50px;
+    top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: lightcyan;
+    font-size: 60px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.mainslide1 .wrapper .sect3 .boox22 h1{
+    position:absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    top: 100px;
+    color: lightcoral;
+    text-transform: uppercase;
+    left: 30px;
+}
+.mainslide1 .wrapper .sect3 .boox22 h2{
+    position:absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    top: 160px;
+    color: darkviolet;
+    text-transform: uppercase;
+    left: 40px;
+}
+
+
+.mainslide1 .wrapper .sect4 .book1 h1{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    top: 100px;
+    color: blueviolet;
+    left: 100px;
+}
+.mainslide1 .wrapper .sect4 .book1 h2{
+    position: absolute;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    top: 100px;
+    color: teal;
+    left: 60px;
+}
+.mainslide1 .wrapper .sect4 .book1 h3{
+    position: absolute;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: 'Poppins', sans-serif;
+    top: 220px;
+    left: 100px;
+}
+
+
+
+.wrapper_back .footer .t{
+    position: absolute;
+    left: 24%;
+    font-size: 90px;
+    font-family: 'Staatliches', cursive;
+}
+.wrapper_back .footer .hans{
+    position: absolute;
+    left: 26%;
+    top: 58px;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+.wrapper_back .footer .wal{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 70px;
+    font-family: 'Staatliches', cursive;
+}
+.wrapper_back .footer .address{
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+.wrapper_back .footer .phn{
+    position: absolute;
+    right: 180px;
+    top: 110px;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+.wrapper_back .footer .no{
+    position: absolute;
+    right: 10px;
+    top: 110px;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}

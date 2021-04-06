@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.wrapper_back{
+    height: 130%;
+    width: 100%;
+    position: absolute;
+    background-color: cornsilk;
+}
+.wrapper_back .header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    opacity: .9;
+    z-index: 999;
+    height: 70px;
+    background-color: rgb(33, 31, 39);
+}
+.wrapper_back .header span{
+    position: absolute;
+    color: lightgrey;
+    height: 50px;
+    user-select: none;
+    width: 180px;
+    left: 70px;
+    top: 5px;
+    font-family: 'Train One', cursive;
+    font-size: 15px;
+}
+.wrapper_back .header span b{
+    font-size: 40px;
+}
+
+.wrapper_back .side-sect{
+    position: fixed;
+    width: 20%;
+    z-index: 999;
+    height: 100%;
+    background-color: rgb(207, 229, 236);
+}
+
+.wrapper_back .main1{
+    position: fixed;
+    width: 78%;
+    height: 91%;
+    right: 0;
+    background-color: rgb(215, 203, 253);
+}
+.wrapper_back .main1 .mainslides{
+    position: absolute;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: 1s;
+    width: 400%;
+    background-color: blue;
+}
+.wrapper_back .main1 .mainslides .mainslide1{
+    position: absolute;
+    margin: 0;
+    height: 100%;
+    width: 25%;
+    overflow: hidden;
+    background-color: rgb(182, 241, 239);
+}
+.wrapper_back .main1 .mainslides .mainslide2{
+    position: absolute;
+    margin: 0;
+    left: 25%;
+    overflow-y: scroll;
+    height: 100%;
+    width: 25%;
+    background-image: linear-gradient(110.79050755798562deg, rgba(249, 231, 148,1) 5.911420204978038%,rgba(246, 190, 212,1) 95.95534407027817%);
+}
+.wrapper_back .main1 .mainslides .mainslide3{
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    overflow:hidden;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(39, 48, 47);
+}
+.wrapper_back .main1 .mainslides .mainslide3 .form h2{
+    position: absolute;
+    transform: translate(30px, -60px);
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    font-size: 180px;
+}
+.wrapper_back .main1 .mainslides .mainslide3 .form h2:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 4px yellowgreen;
+}
+.wrapper_back .main1 .mainslides .mainslide3 .form h2:nth-child(2){
+    color: yellow;
+    clip-path: polygon(1% 55%, 7% 50%, 14% 46%, 20% 45%, 25% 46%, 31% 50%, 35% 55%, 38% 59%, 42% 62%, 46% 64%, 52% 64%, 56% 64%, 63% 62%, 67% 59%, 73% 59%, 82% 63%, 87% 66%, 94% 69%, 100% 65%, 100% 100%, 0% 100%);
+}
+
+
+.wrapper_back .main1 .mainslides .mainslide4{
+    position: absolute;
+    margin: 0;
+    left: 75%;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(161, 175, 236);
+}
+.wrapper_back .side-sect nav ul #color{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    top: 0;
+    z-index: 2;
+    background-color: blue;
+}
+
+
+.wrapper_back .footer{
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    border-top: 5px yellowgreen solid;
+    border-top-right-radius:30px ;
+    position:absolute;
+    z-index: 99;
+    background-color: lightsalmon;
+}
+.sidecolor{
+    position: fixed;
+    left: 20%;
+    top: 70px;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    height: 60px;
+    width: 2%;
+    z-index: 999;
+    background-color: blue; 
+}
+
+.wrapper_back .side-sect2{
+    position: fixed;
+    z-index: 995;
+    width: 2%;
+    height: 100%;
+    background-color: white;
+    left: 20%;
+}
+.wrapper_back .side-sect ul{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+}
+.wrapper_back .side-sect ul li:nth-child(1){
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    z-index: 3;
+    padding-top: 10px;
+    position: relative;
+}
+.wrapper_back .side-sect ul li:nth-child(1) i{
+    position: relative;
+    left: 10px;
+    color: lightblue;
+    font-size: 30px;
+    z-index: 3;
+}
+.wrapper_back .side-sect ul li:nth-child(1) span{
+    position: absolute;
+    left: 70px;
+    user-select: none;
+    color: lightblue;
+    z-index: 3;
+    font-size: 30px;
+}
+
+.wrapper_back .side-sect ul li:nth-child(2){
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    cursor: pointer;
+    padding-top: 10px;
+    position: relative;
+}
+.wrapper_back .side-sect ul li:nth-child(2) i{
+    position: absolute;
+    left: 14px;
+    font-size: 30px;
+}
+.wrapper_back .side-sect ul li:nth-child(2) span{
+    position: absolute;
+    left: 70px;
+    font-size: 30px;
+    user-select: none;
+
+}
+.wrapper_back .side-sect ul li:nth-child(3){
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    cursor: pointer;
+    padding-top: 10px;
+    position: relative;
+}
+.wrapper_back .side-sect ul li:nth-child(3) i{
+    position: absolute;
+    left: 12px;
+    font-size: 30px;
+}
+.wrapper_back .side-sect ul li:nth-child(3) span{
+    position: absolute;
+    left: 70px;
+    font-size: 30px;
+    user-select: none;
+
+}
+.wrapper_back .side-sect ul li:nth-child(4){
+    width: 100%;
+    z-index: 3;
+    height: 50px;
+    padding-top: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.wrapper_back .side-sect ul li:nth-child(4) i{
+    position: absolute;
+    left: 12px;
+    font-size: 30px;
+}
+.wrapper_back .side-sect ul li:nth-child(4) span{
+    position: absolute;
+    left: 70px;
+    font-size: 30px;
+    user-select: none;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    z-index: 22;
+    top: 150px;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Name11{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 500px;
+    background: transparent;
+    border: none;
+    border-left: lightskyblue 5px solid;
+    font-size: 30px;
+    padding-left: 10px;
+    color:rgb(200, 255, 0);
+    border-bottom: lightskyblue 5px solid;
+    height: 50px;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Name11::placeholder{
+    position: absolute;
+    top: 7px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:rgb(200, 255, 0);
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Name11:focus ~ #Name11::placeholder{
+    color: transparent;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Email11{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    width: 500px;
+    background: transparent;
+    border: none;
+    border-left: lightskyblue 5px solid;
+    font-size: 30px;
+    padding-left: 10px;
+    color:rgb(200, 255, 0);
+    border-bottom: lightskyblue 5px solid;
+    height: 50px;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Email11::placeholder{
+    position: absolute;
+    top: 7px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:rgb(200, 255, 0);
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Pass11{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    width: 500px;
+    background: transparent;
+    border: none;
+    border-left: lightskyblue 5px solid;
+    font-size: 30px;
+    padding-left: 10px;
+    color:rgb(200, 255, 0);
+    border-bottom: lightskyblue 5px solid;
+    height: 50px;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Pass11::placeholder{
+    position: absolute;
+    top: 7px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:rgb(200, 255, 0);
+}
+
+.wrapper_back .main1 .mainslides .mainslide3 form #gender{
+    color:rgb(200, 255, 0);
+    top: 220px;
+    position:absolute;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    left: 50px;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Males{
+    display: none;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Females{
+    display: none;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #male{
+    color:orange;
+    top: 260px;
+    position:absolute;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    left: 50px;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Males:checked ~ #male{
+    color: cyan;
+    border-bottom: 5px cyan solid;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Males:hover ~ #male{
+    color: rgb(255, 0, 119);
+    border-bottom: 5px rgb(255, 0, 119) solid;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #female{
+    color:orange;
+    top: 260px;
+    position:absolute;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    left: 300px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Females:checked ~ #female{
+    color: cyan;
+    border-bottom: 5px cyan solid;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form #Females:hover ~ #female{
+    color: rgb(255, 0, 119);
+    border-bottom: 5px rgb(255, 0, 119) solid;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form button{
+    height: 70px;
+    width: 300px;
+    left: 40px;
+    position: absolute;
+    top: 340px;
+    background-color: transparent;
+    border: solid rgb(200, 255, 0) 10px;
+    border-radius: 5px;
+    color: rgb(200, 255, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form button span{
+    top: -5px;
+    position: absolute;
+    left: 10px;
+}
+.wrapper_back .main1 .mainslides .mainslide3 form button:hover{
+    color: rgb(255, 94, 0);
+    border: solid rgb(255, 94, 0) 10px;
+    background-color:rgb(244, 247, 51);
+}
+.wrapper_back .main1 .mainslides .mainslide3 form img{
+    right: 10px;
+    height: 400px;
+    position:absolute;
+}

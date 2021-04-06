@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Righteous&display=swap');
+
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22{
+    position:absolute;
+    height: 340%;
+    width: 100%;
+}
+
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .intro h2{
+    position: absolute;
+    transform: translate(10px, -10px);
+    font-family: 'Staatliches', cursive;
+    user-select: none;
+    font-size: 180px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .intro h2:nth-child(1){
+    color: blue;
+    left: 10px;
+    top: 5px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .intro h2:nth-child(2){
+    color: cyan;
+}
+
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile{
+    position:absolute;
+    height: 400px;
+    width: 100%;
+    top: 250px;
+    border-top:10px solid darkblue;
+    border-bottom:10px solid purple;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .profilete{
+    position:absolute;
+    background-color: rgba(249, 231, 148);
+    font-size: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Abril Fatface', cursive;
+    top: -40px;
+    left: 20px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .lab{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val::before{
+    position:absolute;
+    content: 'Harmanpreet kumar';
+    top: -3px;
+    left: -2px;
+    color: blue;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .lab1{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val1{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val1::before{
+    position:absolute;
+    content: '19 yrs';
+    top: -3px;
+    left: -2px;
+    color: blue;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .lab2{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val2{
+    position:relative;
+    top: 53px;
+    left: 20px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val2::before{
+    position:absolute;
+    content: 'To lead a perfect life and build ecofriendly devices';
+    top: -3px;
+    left: -2px;
+    color: blue;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .lab3{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val3{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val3::before{
+    position:absolute;
+    content: 'B+ve';
+    top: -3px;
+    left: -2px;
+    color: blue;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .lab4{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val4{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profile .val4::before{
+    position:absolute;
+    content: 'Jalandhar, Punjab, India';
+    top: -3px;
+    left: -2px;
+    color: blue;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education{
+    position:absolute;
+    height: 550px;
+    width: 100%;
+    top: 730px;
+    border-top:10px solid darkblue;
+    border-bottom:10px solid purple;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .educationte{
+    position:absolute;
+    background-color: rgba(249, 231, 148);
+    font-size: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Abril Fatface', cursive;
+    top: -40px;
+    left: 20px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .lab{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val::before{
+    position:absolute;
+    content: 'Indian Institute of Technology, Jammu';
+    top: -3px;
+    left: -2px;
+    color: brown;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .lab1{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val1{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val1::before{
+    position:absolute;
+    content: 'Mechanical Engineering';
+    top: -3px;
+    left: -2px;
+    color: brown;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .lab2{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val2{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val2::before{
+    position:absolute;
+    content: '2020-21';
+    top: -3px;
+    left: -2px;
+    color: brown;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .high{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .lab3{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val3{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val3::before{
+    position:absolute;
+    content: '97.3%';
+    top: -3px;
+    left: -2px;
+    color: brown;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .lab4{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val4{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val4::before{
+    position:absolute;
+    content: 'CBSE';
+    top: -3px;
+    left: -2px;
+    color: brown;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .lab5{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val5{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val5::before{
+    position:absolute;
+    content: '2020';
+    top: -3px;
+    left: -2px;
+    color: brown;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .lab6{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val6{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val6::before{
+    position:absolute;
+    content: '92%';
+    top: -3px;
+    left: -2px;
+    color: brown;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .lab7{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val7{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val7::before{
+    position:absolute;
+    content: 'CBSE';
+    top: -3px;
+    left: -2px;
+    color: brown;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .lab8{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val8{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .education .val8::before{
+    position:absolute;
+    content: '2018';
+    top: -3px;
+    left: -2px;
+    color: brown;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession{
+    position:absolute;
+    height: 700px;
+    width: 100%;
+    top: 1360px;
+    border-top:10px solid darkblue;
+    border-bottom:10px solid purple;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .professionte{
+    position:absolute;
+    background-color: rgba(249, 231, 148);
+    font-size: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Abril Fatface', cursive;
+    top: -40px;
+    left: 20px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .lab{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .val{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .val::before{
+    position:absolute;
+    content: 'Web Designing';
+    top: -3px;
+    left: -2px;
+    color: green;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .lab1{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .hob1{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .hob1::before{
+    position:absolute;
+    content: 'Typing';
+    top: -3px;
+    left: -2px;
+    color: green;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .hob2{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .hob2::before{
+    position:absolute;
+    content: 'English Speaking';
+    top: -3px;
+    left: -2px;
+    color: green;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .hob3{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .hob3::before{
+    position:absolute;
+    content: 'Reading';
+    top: -3px;
+    left: -2px;
+    color: green;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .lab2{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .ski1{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .ski1::before{
+    position:absolute;
+    content: 'HTML 5';
+    top: -3px;
+    left: -2px;
+    color: green;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .ski2{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .ski2::before{
+    position:absolute;
+    content: 'CSS 3';
+    top: -3px;
+    left: -2px;
+    color: green;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .ski3{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .ski3::before{
+    position:absolute;
+    content: 'JAVASCRIPT';
+    top: -3px;
+    left: -2px;
+    color: green;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .lab3{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .val3{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .val3::before{
+    position:absolute;
+    content: 'Type fast, Confidence, Friends and Family';
+    top: -3px;
+    left: -2px;
+    color: green;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .lab4{
+    position:relative;
+    top: 50px;
+    left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .val4{
+    position:relative;
+    top: 53px;
+    left: 50px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.wrapper_back .main1 .mainslides .mainslide2 .mainslide22 .profession .val4::before{
+    position:absolute;
+    content: 'Lazy sometimes';
+    top: -3px;
+    left: -2px;
+    color: green;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
